@@ -19,7 +19,11 @@ mvn install:install-file -Dfile=ojdbc8-12.2.0.1.jar -DpomFile=ojdbc8-12.2.0.1.po
 mvn install:install-file -Dfile=ucp-12.2.0.1.jar -DpomFile=ucp-12.2.0.1.pom.xml 
 ```
 
-4. Clone MongoSyphon repository from https://github.com/johnlpage/MongoSyphon
+4. Clone [MongoSyphon](https://github.com/johnlpage/MongoSyphon) repository
+
+```
+git clone https://github.com/johnlpage/MongoSyphon
+```
 
 5. Change pom.xml to use mongo-java-driver version 3.6.4 and ojdbc8 version 12.2.0.1
 
