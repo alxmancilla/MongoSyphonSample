@@ -5,7 +5,7 @@ Sample for migrating data from Oracle to MongoDB using MongoSyphon
 
 ## Instructions
 
-1. Install a basic  Oracle 12c and SQL Developer 12c in local machine. [Here](https://medium.com/@mfofana/how-to-install-oracle-database-on-mac-os-sierra-10-12-or-above-c0b350fd2f2c) you can find instructions to install it on Mac OS
+1. Install Oracle 12c and SQL Developer in your local machine. [Here](https://medium.com/@mfofana/how-to-install-oracle-database-on-mac-os-sierra-10-12-or-above-c0b350fd2f2c) you can find instructions to install it on Mac OS
 
 
 
