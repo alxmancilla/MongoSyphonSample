@@ -40,8 +40,16 @@ mvn install:install-file -Dfile=ucp-12.2.0.1.jar -DpomFile=ucp-12.2.0.1.pom.xml
 7. Run DDL and SQL statements (create_emp_table.sql) on SQL Developer
 
 8. Execute MongoSyphon with initial_load_emp_table.js
-
+```
+java -jar MongoSyphon.jar -c initial_load_emp_table.js
+```
 9. Run SQL statements (add_upd_emp_table.sql) on SQL Developer
 
 10. Execute MongoSyphon with cdc_emp_table.js
+```
+java -jar MongoSyphon.jar -c cdc_emp_table.js
+```
+
+You can use Compass or mongo shell to show changes after step 8 and 10
+
 
