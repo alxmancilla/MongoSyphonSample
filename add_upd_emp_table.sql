@@ -1,0 +1,13 @@
+SELECT * FROM emp 
+
+SELECT * FROM emp WHERE TRUNC(lmdate) < TRUNC(sysdate - 1 )
+
+INSERT INTO EMP VALUES(8102,'PEDRO','MANAGER',7698,to_date('20-2-2000','dd-mm-yyyy'),1500,500,30, sysdate);
+INSERT INTO EMP VALUES(8100,'JUAN','SALESMAN',8102,to_date('17-12-2000','dd-mm-yyyy'),900,300,20, sysdate);
+INSERT INTO EMP VALUES(8103,'MIGUEL','CLERK',8100,to_date('22-2-2000','dd-mm-yyyy'),1250,NULL,30, sysdate);
+
+UPDATE EMP  SET MGR = 8100 , LMDATE = sysdate WHERE EMPNO IN (7499,7521);
+
+COMMIT;
+
+
