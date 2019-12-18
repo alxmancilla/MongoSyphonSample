@@ -3,7 +3,7 @@ Sample for migrating data from Oracle to MongoDB using MongoSyphon
 
 
 
-##Instructions
+## Instructions
 
 1. Install a basic  Oracle 12c and SQL Developer 12c in local machine. Here you can find instructions to install it on Mac X OS
 
@@ -55,6 +55,6 @@ java -jar bin/MongoSyphon.jar -c initial_load_emp_table.js
 java -jar bin/MongoSyphon.jar -c cdc_emp_table.js
 ```
 
-You can use Compass or mongo shell to show changes after step 8 and 10
+You can use MongoDB Compass or mongo shell to see changes on MongoDB after step 8 and 10
 
 
